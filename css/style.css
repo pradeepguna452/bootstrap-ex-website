@@ -1,0 +1,107 @@
+body {
+text-align: center;
+}
+#first{
+background-color: #ff4c68;
+}
+h3{
+    font-family: 'Lilita One', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2{
+font-family: 'Lilita one', cursive;
+}
+p{
+color: #8f8f8f;
+}
+.navbar-brand {
+    font-size: 5rem;
+    padding: 45px-auto;
+}
+.nav-link {
+  font-size: 2rem;
+}
+.container-fluid {
+  padding: 4% 15% 5%; 
+}
+.nav-item {
+  padding: 19px 19px;
+}
+.img-main {
+  transform: rotate(25deg);
+  position: absolute;
+  padding: 10%;
+  height: 700px;
+  width: 450px; 
+  }
+#second {
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
+}
+.second-box{
+  padding: 3%;
+margin: 50px auto;
+z-index: 1;
+}
+.image-2{
+margin-bottom: 1rem;
+color: #ef8172;
+}
+.image-2:hover {
+color: #ff4c68;
+}
+#third{
+background-color: #ef8172;
+color: white;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.image-3{
+border-radius: 100%;
+height: 10%;
+width: 10%;
+margin:9px;
+}
+#fourth {
+background-color: #ef8172;
+padding: 3rem;
+}
+.image-4 {
+width:15%;
+margin:auto 20px 15px;
+}
+
+#pricing {
+padding: 100px;
+}
+.pricing-column {
+padding: 3% 2%;
+}
+#end-section {
+  color: white;
+padding:  7% 15% ;
+background-color: #ff4c68;
+}
+.end-h3 {
+padding:1% 10% 10%;
+}
+#end {
+  padding: 5% 15%;
+}
+.icon {
+padding:1%;
+}
+
+@media (max-width:1028px) 
+{
+#first {
+text-align: center;
+       }
+.img-main {
+  position: static;
+  transform: (0);
+           }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- span.class#id -->
+    <span class="class" id="id"></span>
+    <!-- button[type="button"] -->
+    <button type="button"> </button>
+    <!-- [data-selector].class -->
+    <div data-selector="" class="hello"></div>
+    <!-- if we have a child element then we have to use ">" -->
+    <!--div.puple>span.span-class -->
+    <div class="purple"><span class="span-class"></span></div>
+    <!-- 
+1. shift+!  { to get the body of html }
+2. span.purple { it will generate the span inside a class called  “purple”
+3. span#purple { it will generate the span and a id for span called “purple” }
+4. span.purple#purple  { which will generate a class and id called “purple” }
+5. .purple then it will generate  { div class=”purple” same for id }  #purple 
+we can also create a attribute using emment    to add a attribute we use “ [ ] “
+eg…
+1. button [ type=”button”] -->
+<!-- header>nav>ul>il*5  header>nav>ul>il*5{ list item $} -->
+    <header>
+        <nav>
+            <ul>
+                <il>iugh</il>
+                <il></il>
+                <il></il>
+                <il></il>
+                <il></il>
+            </ul>
+        </nav>
+    </header>
+    <!-- header>nav>ul>il*5{ list item $ } -->
+    <header>
+        <nav>
+            <ul>
+                <il> list item 1</il>
+                <il> list item 2</il>
+                <il> list item 3</il>
+                <il> list item 4</il>
+                <il> list item 5</il>
+            </ul>
+        </nav>
+    </header>
+    <!-- header>nav>ul>il*5.class-${list item $} -->
+    <header>
+        <nav>
+            <ul>
+                <il class="class-1">list item 1</il>
+                <il class="class-2">list item 2</il>
+                <il class="class-3">list item 3</il>
+                <il class="class-4">list item 4</il>
+                <il class="class-5">list item 5</il>
+            </ul>
+        </nav>
+    </header>
+    <!-- header>nav>ul>il*5.class-${list item $$} -->
+    <header>
+        <nav>
+            <ul>
+                <il class="class-1">list item 01</il>
+                <il class="class-2">list item 02</il>
+                <il class="class-3">list item 03</il>
+                <il class="class-4">list item 04</il>
+                <il class="class-5">list item 05</il>
+            </ul>
+        </nav>
+    </header>
+    <!--  sibling for that we have use the "+" -->
+    <!-- header+main+footer -->
+    <header></header>
+    <main></main>
+    <footer></footer>
+    <!-- if wee need to use a child inside a sibling we > -->
+    <!-- header>main+footer -->
+    <header>
+        <main></main>
+        <footer></footer>
+    </header>
+    <!--  but this was acted wrongly so we modify the code as -->
+    <!-- header>main^footer -->
+    <header>
+        <main></main>
+    </header>
+    <footer></footer>
+    <!--  now it is looking perfect , we can achive this in different way by using 
+    a new format (header>main)+footer   -->
+    <header>
+        <main></main>
+    </header>
+    <footer></footer>
+    <!--  same result but different methods -->
+    <!-- (header>h2{heading}>nav>ol>li*5>a{link $})+main+footer -->
+    <header>
+        <h2>heading</h2>
+            <nav>
+                <ol>
+                    <li><a href="">link 1</a></li>
+                    <li><a href="">link 2</a></li>
+                    <li><a href="">link 3</a></li>
+                    <li><a href="">link 4</a></li>
+                    <li><a href="">link 5</a></li>
+                </ol>
+            </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+
+
+
+
+
+
+
+</body>
+</html>
